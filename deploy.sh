@@ -14,7 +14,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:<BranchName>
 git push -f git@github.com:Junes-Xie/Blogs.git master:blogs
 
