@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: vuepress-theme-reco
-tagline: A simple and beautiful vuepress blog theme.
+heroText: Jones-Xie
+tagline: 大浪淘沙
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',

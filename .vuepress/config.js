@@ -1,5 +1,5 @@
 module.exports = {
-  "title": "blogs",
+  "title": "Jones-Xie`s Blog",
   "description": "个人博客",
   "base": "/Blogs/",
   "head": [
@@ -20,6 +20,7 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
+    // 头部菜单栏
     "nav": [
       {
         "text": "Home",
@@ -47,7 +48,7 @@ module.exports = {
         "items": [
           {
             "text": "GitHub",
-            "link": "https://github.com/recoluan",
+            "link": "https://github.com/Junes-Xie",
             "icon": "reco-github"
           }
         ]
@@ -97,5 +98,15 @@ module.exports = {
   },
   "markdown": {
     "lineNumbers": true
+  },
+  "plugins": {
+    "@vssue/vuepress-plugin-vssue": {
+      "platform": "github",
+      "owner": "Jones-Xie",
+      "locale": "zh",
+      "repo": "Blogs",
+      "clientId": "1ab85c7948f40c91fbae",
+      "clientSecret": "206fd23fa4dc46273c39ac8e2995d8d699ccea00"
+    }
   }
 }
